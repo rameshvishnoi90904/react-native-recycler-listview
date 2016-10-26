@@ -21,6 +21,10 @@ compile project(':ReactNativeRecyclerListview')
 ##step 3: In MainApplication.java
 
 ```
+
+import com.customlistview.ListViewPackage;
+
+
 @Override protected List getPackages() {
   return Arrays.asList(
     new MainReactPackage(),
