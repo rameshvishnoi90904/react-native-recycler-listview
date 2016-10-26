@@ -1,5 +1,5 @@
 # react-native-recycler-listview
- 
+
 Custom Component for ListView in Android using RecyclerView
 
 Installation
@@ -7,7 +7,7 @@ Installation
 
 ##step 1: In settings.gradle
 ```
-include ':ReactNativeRecyclerListview', ':app' 
+include ':ReactNativeRecyclerListview'
 project(':ReactNativeRecyclerListview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-recycler-listview/android')
 ```
 
@@ -21,11 +21,11 @@ compile project(':ReactNativeRecyclerListview')
 ##step 3: In MainApplication.java
 
 ```
-@Override protected List getPackages() { 
-  return Arrays.asList( 
-    new MainReactPackage(), 
-    new ListViewPackage() 
-  ); 
+@Override protected List getPackages() {
+  return Arrays.asList(
+    new MainReactPackage(),
+    new ListViewPackage()
+  );
 }
 
 ```
@@ -43,7 +43,7 @@ constructor(props) {
         dataSource:{"names": array}
       };
     }
-    
+
 render() {
   return (
     <View style={styles.container}>
