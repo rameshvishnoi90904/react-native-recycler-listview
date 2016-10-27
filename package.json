@@ -1,3 +1,4 @@
+{
 "name": "react-native-recycler-listview",
 "version": "0.1.0",
 "description": "A React Native RecyclerView ListView Module",
@@ -11,7 +12,8 @@
   "react-component",
   "android",
   "listview",
-  "recyclerview"
+  "recyclerview",
+  "memory-efficient"
 ],
 "repository": {
   "type": "git",
