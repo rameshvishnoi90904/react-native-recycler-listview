@@ -3,6 +3,10 @@
 Custom Component for ListView in Android using RecyclerView
 
 Installation
+> npm install react-native-recycler-listview
+
+or
+
 > git clone https://github.com/rameshvishnoi90904/react-native-recycler-listview.git
 
 ##step 1: In settings.gradle
